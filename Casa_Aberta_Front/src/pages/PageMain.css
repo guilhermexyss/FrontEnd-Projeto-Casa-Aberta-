@@ -1,0 +1,67 @@
+.pageMainteste{
+    background-color: rgb(49, 47, 47);
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/gifs/red-matrix-bg.gif);
+}
+
+#timer{
+    color: var(--vermelho);
+    font-size: 1.3em;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.formularios{
+    display: flex;
+    gap: 20px;
+}
+
+.inputs{
+    width: 200px;
+    height: 20px;
+    border: none;
+}
+
+.botoes{
+    border: none;
+}
+.messageContainer{
+    font-size: 2em;
+    color: rgb(120, 120, 122);
+
+}
+
+.areatext {
+    width: 400px;
+    height: 600px;
+    background-color: transparent;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #message {
+    color: var(--vermelho);
+    letter-spacing: .15em;
+    white-space: pre-wrap; /* respeita quebras de linha no texto */
+    font-family: monospace;
+    font-size: 2rem;
+  }
+  .caret {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: var(--azul-bebe);
+    animation: blink-caret 0.75s step-end infinite;
+    margin-left: 2px;
+  }
+  @keyframes blink-caret {
+    from, to { background-color: transparent; }
+    50% { background-color: var(--azul-bebe); }
+  }
+
+
+

@@ -1,5 +1,5 @@
 :root {
-  --preto: #040926;
+  --preto: #01030c;
   --azul: #162473;
   --azul-claro: #1B2C8C;
   --vermelho: #A6033F;
@@ -10,6 +10,11 @@
 *{
   margin: 0;
   padding: 0;
+}
+
+body{
+  justify-content: center;
+  display: flex;
 }
 
 

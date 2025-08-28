@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Timer } from './assets/components/timer'
+import { PageMain } from './pages/PageMain'
 import './App.css'
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-    <Timer></Timer>
-      
+    <PageMain></PageMain>
     </>
   )
 }
